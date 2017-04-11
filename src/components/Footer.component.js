@@ -11,10 +11,12 @@ const Footer = () => (
       <div className="col-xs-3 col-xs-offset-2" style={{ color: 'white', marginTop: '5%', marginBottom: '5%'  }}>
         <p style={{ fontWeight: 'bold', fontSize: 23 }} >AROUND THE WEB</p>
         <p style={{ marginTop: '10%', marginLeft: '-2%' }}>
+        <div>
           <FooterIcon faIcon="linkedin" href="https://www.linkedin.com/in/arpit-goyal-6b094078/" />
           <FooterIcon faIcon="github" href="https://github.com/arpitgo4" />
           <FooterIcon faIcon="twitter" />
           <FooterIcon faIcon="flickr" />
+        </div>
         </p>
       </div>
     </div>
