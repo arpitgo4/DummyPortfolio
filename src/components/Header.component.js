@@ -16,4 +16,4 @@ const HeaderTitle = ({ title }) => (
   <h3 style={{ textTransform: 'uppercase', fontWeight: 'bold', color: textColor, fontSize: 30 }} className="text-center col-xs-12">{ title }</h3>
 );  
 
-export default { HeaderDecoration, HeaderTitle };
+export { HeaderDecoration, HeaderTitle };
