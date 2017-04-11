@@ -31,13 +31,11 @@ const FooterCopyRight = () => (
 const FooterIcon = ({ faIcon, href }) => (
   <a href={href} target="_blank" className="footer-icon" style={{ color: 'white', display: 'inline-block', marginLeft: '1%', marginRight: '1%' }}>
     <div style={{ borderRadius: '50%', width: 50, height: 50, border: '2px solid' }}>
-      <i className={`fa fa-${faIcon}`} style={{ fontSize: 20, position: 'relative', left: 13, top: 13 }}/>
+      <i className={`fa fa-${faIcon}`} style={{ fontSize: 20, position: 'relative', left: 13, top: 13 }}></i>
     </div>
   </a>
 );
 
 export default Footer;
 
-export {
-  FooterCopyRight
-};
+export { FooterCopyRight };
