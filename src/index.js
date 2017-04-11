@@ -13,5 +13,5 @@ import './style.css';
 
 ReactDOM.render(
 	<App />,
-	document.getElementById('root')
+	document.getElementById('react-app')
 );

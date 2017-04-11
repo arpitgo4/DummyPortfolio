@@ -1,0 +1,42 @@
+.container {
+  width: 87.5%;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer-icon:hover > div {
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.footer-icon:hover i {
+  color: purple;
+  transition: color 1s ease;
+}
+
+#author-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* #nav-about:active, #nav-portfolio:active, #nav-contact:active {
+  
+} */
+
+/* #nav-about, #nav-portfolio, #nav-contact {
+  color: #bbb;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#nav-about:hover, #nav-portfolio:hover, #nav-contact:hover {
+  background-color: purple;
+  color: #777;
+} */
+
+
+

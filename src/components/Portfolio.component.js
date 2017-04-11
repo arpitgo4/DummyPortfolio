@@ -1,5 +1,6 @@
 import React from 'react';
-import { textColor, lighterTextColor } from './body.component';
+import { textColor, lighterTextColor } from './InfoContainer.component';
+import { HeaderTitle, HeaderDecoration } from './Header.component';
 
 const Portfolio = () => (
   <div className="row" id="portfolio" style={{ backgroundColor: '#ddd', color: textColor, fontWeight: 'bold', borderBottom: `2px solid ${lighterTextColor}` }}>

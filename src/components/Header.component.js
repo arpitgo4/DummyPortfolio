@@ -1,5 +1,5 @@
 import React from 'react';
-import { textColor } from './body.component';
+import { textColor } from './InfoContainer.component';
 
 const HeaderDecoration = () => (
   <div className="row">

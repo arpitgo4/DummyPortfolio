@@ -1,5 +1,5 @@
 import React from 'react';
-import { lighterTextColor } from './Body.component';
+import { lighterTextColor } from './InfoContainer.component';
 
 const Footer = () => (
     <div className="row" style={{ backgroundColor: lighterTextColor, boxShadow: '0px -4px 1px -6px #999' }}>
@@ -37,3 +37,7 @@ const FooterIcon = ({ faIcon, href }) => (
 );
 
 export default Footer;
+
+export {
+  FooterCopyRight
+};

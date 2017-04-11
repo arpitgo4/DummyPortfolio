@@ -1,5 +1,7 @@
 import React from 'react';
-import { textColor } from './Body.component';
+import { textColor } from './InfoContainer.component';
+import { HeaderTitle, HeaderDecoration } from './Header.component';
+import FormField from './FormField.component';
 
 const Contact = () => (
   <div className="row" style={{ backgroundColor: '#ddd', paddingBottom: '3%' }}>
@@ -24,7 +26,7 @@ const Contact = () => (
       <div style={{ marginTop: '3%', fontSize: 20, color: textColor, width: '35%' }} className="col-xs-4 col-xs-offset-1">
         <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
         <p>I promise to reply A.S.A.P.</p>
-        <p style={{ marginTop: '20%'}}>Note: No spam/soliciting pour moi, merci :)</p>
+        <p style={{ marginTop: '20%'}}>Note: No spam/soliciting pour moi, merci --- Smiley here ----</p>
       </div>
     </div>
   </div>
