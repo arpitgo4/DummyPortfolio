@@ -11,7 +11,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
     sourceMapFilename: 'bundle.map.js',
-    publicPath: '/'
+    publicPath: './dist/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
@@ -28,10 +28,10 @@ module.exports = {
       { test: /\.css$/, loaders: ['react-hot', 'style-loader', 'css-loader'] },
       { test: /\.png$/, loader: 'url-loader?limit=100000' },
       { test: /\.jpg$/, loader: 'file-loader?name=/images/[name].[ext]' },
-      { test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=/fonts/[name].[ext]&mimetype=application/font-woff' }, //
-      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=/fonts/[name].[ext]&mimetype=application/octet-stream' },
-      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=/fonts/[name].[ext]' }, //
-      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=/fonts/[name].[ext]&mimetype=image/svg+xml'}//
+      { test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?name=/fonts/[name].[ext]&mimetype=application/font-woff' }, //
+      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?name=/fonts/[name].[ext]&mimetype=application/octet-stream' },
+      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?name=/fonts/[name].[ext]' }, //
+      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?name=/fonts/[name].[ext]&mimetype=image/svg+xml'}//
     ]
   }
 };
